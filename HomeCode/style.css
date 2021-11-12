@@ -1,0 +1,15 @@
+.japan{
+    position: relative;
+    width: 250px;
+    height: 150px;
+    border: 2px black solid;
+}
+.red_circle{
+    position: relative;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: red;
+    margin: 0 auto;
+    margin-top: 40px;
+}
