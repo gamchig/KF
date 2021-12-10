@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+.container{
+    width: 1370px;
+    margin: 0 auto; 
+}
+.header{
+    border-bottom: 1px #D0D0D0 solid;
+}
+.header_inner{
+    height: 100px;
+    align-items:center;
+    display: flex; 
+    justify-content: space-between;
+}
+.logo1{
+height: 72px;
+left: 100px;
+padding: 11px 11px;
+}
+.ul{
+    display: flex;
+    list-style-type:none;
+
+}
+.item{
+    display: flex;
+    align-items: center;
+    border-left: 1px #E2E2E2 solid;
+    height: 40px;
+    padding: 0 25px;
+}
+.language{
+    font-size: 16px;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    
+}
+.ru{
+    border: 1px white solid;
+    padding: 1px 5px;
+}
+.ru:hover{
+    border: 1px #4AD295 solid;
+    padding: 1px 5px;
+    background-color: #4AD295;
+    border-radius: 5px;
+}
+.ua{
+    border: 1px white solid;
+    padding: 1px 5px;
+}
+.ua:hover{
+    border: 1px #4AD295 solid;
+    padding: 1px 5px;
+    background-color: #4AD295;
+    border-radius: 5px; 
+}
+.money{
+    font-size: 16px;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+}
+.insta{
+    margin: 15px;
+}
+.main_number{
+    font-size: 16px;
+    font-style: normal;
+}
+.phone{
+    margin: 15px;
+}
+.button_text{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+.button_link{
+display: flex;
+text-decoration: none;
+margin: 0 10px;
+}
+.button_text{
+    text-decoration: none;
+    color: #373737;
+    padding: 17px;
+    background-color:#EFF3F6;
+}
+.button_icon{
+    width: 55px;
+    height: 55px;
+    background-color:#DD4053;
+}
+.button_icon_img{
+    padding: 17px;
+}
+.second_button_icon{
+    width: 55px;
+    height: 55px;
+    background-color:#4AD295;
+}
